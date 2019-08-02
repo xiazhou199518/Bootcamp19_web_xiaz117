@@ -1,0 +1,306 @@
+body{
+     
+     }
+
+#nav {
+    line-height:30px;
+   
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+
+#logo {
+    width: 180px;
+    height: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.underline {
+    margin: 10px auto 2rem auto;
+    width: 200px;
+    border-bottom: 3px solid #000;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+///////
+#icon img{
+        width: 130px;
+		display: block;
+		padding: 3px;
+}
+
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0abab5;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #2F4F4F;
+}
+
+#nav li a, .drop {
+    display: inline-block;
+    color: white;
+    font-family:cursive;
+    font-weight: 150;
+	font-size:20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li.dropdown {
+    display: inline-block;
+}
+
+#nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7FFFD4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+
+#nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#nav .dropdown-content a:hover {background-color: #2F4F4F}
+
+#nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.swiper{
+        width:100%;
+        height:50%;
+        
+
+}
+
+.swiper-container img{
+	width: 100%;
+	}
+
+#side {
+    float: left;
+    position: fixed;
+    width: 9%;
+    margin: 0;
+    padding:0;
+    background-color: #0abab5
+}
+
+#side ul {
+    list-style-type: none;
+    margin: 0;
+    width:100%;
+    padding: 1em 0em;
+    overflow: hidden;
+}
+
+#top{
+	cursor: pointer;
+}
+
+#side ul a {
+    display: block;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+#side ul a:hover {
+    background-color: #2F4F4F;
+}
+
+#buttons {
+         text-align:center;
+         bottom:10px;
+         width:100%
+
+}
+
+#buttons button{
+    width:250px;
+    background-color:#0abab5;
+    border: none;
+    padding: 18px 32px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+
+#buttons a{
+    width:100px;
+    padding: 50px 10px;
+    color: white;
+    font-family:cursive;
+    font-weight: 150;
+	font-size:20px;
+	text-decoration: none;
+}
+
+#buttons button:hover {
+    background-color: #2F4F4F;
+}
+
+#submit input{
+    width:20%;
+    background-color:#0abab5;
+    border: none;
+    color: white;
+    padding: 18px 32px;
+    font-family:cursive;
+    font-weight: 150;
+	font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#submit input:hover{
+background-color: #2F4F4F;
+}
+
+
+legend{
+       color: white;
+       font-family:cursive;
+       font-weight: 200;
+	   font-size:25px;
+
+
+}
+
+section{
+       color:#2F4F4F;
+       font-family:cursive;
+       font-style: normal;
+       font-variant: normal;
+	   font-weight: 100;
+	   font-size:18px;
+	   margin-left:10%
+
+}
+
+
+.text{
+      display:inline-block;
+      float:left;
+      height:300px;
+      width:50%
+
+}
+
+section img{
+       display:inline-block;
+       right:50%;
+       float:right;
+       height:300px;
+       width:300px;
+       margin-right:10%
+}
+
+.induction .text{
+      display:inline-block;
+      float:left;
+      height:350px;
+      width:50%
+
+}
+.induction img{
+       border-radius:80%;
+       margin:5%
+}
+
+.bg{
+    botton:1em;
+    display:inline-block;
+    float:right;
+    height:300px;
+    width:300px;
+}
+
+#chapter1{
+ 	display: block;
+ }
+
+#chapter1 div{
+   display: block;
+ }
+
+.chapter1_img{
+   height: 300px;
+   margin: 20px 0;
+ }
+
+#c1_1, #c1_2{
+   display:block;
+   left:0%;
+   float:left;
+   clear: both;
+   height:300px;
+   width:500px;
+   margin:0;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color:#0abab5;
+    clear: both;
+    text-align: center;
+}
+
+.error{
+color:red;
+}
+
+input.error, textarea.error{
+border-color:red;
+}
+
+#close{
+font-size:15px;
+}
+
+
+

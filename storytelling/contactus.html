@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8" />
+    <title>The Little Prince </title>
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+  </head>
+
+ <body> 
+	 <div class="w-100 d-flex navbar-light bg-white border-bottom">
+	      <div class="pt-1 w-75 d-flex mx-auto">
+	        <a href="index.html">
+	          <img src="images/logo.jpg" alt="Logo" id="logo" class="my-auto">
+	        </a> 
+	      </div>
+	    </div>
+
+	    <section class="main d-flex mt-4 w-75 mx-auto">
+      <div id ="nav" class="w-25"> 
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                  <a class="nav-link" href="index.html">The Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="characters.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="introduction.html">Introduction</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+          </ul>
+        </div>
+	
+	<form id="evaulationForm" method = "post">
+	<fieldset>
+	<legend> Feedback </legend>
+	
+		<section>
+		   <p>	
+			<lable for = "nameInput"> Name: </lable>
+			<input type= "text" name = "name" id = "nameInput"><br>		
+			<lable for = "emailInput"> Email: </lable>
+			<input type= "text" name = "email" id = "emailInput"><br>
+			<p>Gender:
+			<lable for = "female"> Female </lable>
+			<input type = "radio" name="gender" value = "female" id = "female"/>
+			<lable for = "male"> Male </lable>
+			<input type = "radio" name="gender" value = "male" id = "male"/>
+			</p> 
+			<p>Which chapter is your favourite?
+			<select name= "favourite">
+			 <option value="chapter5">Chapter 1</option>
+			 <option value="chapter2">Chapter 2</option>
+			 <option value="chapter3">Chapter 3</option>
+			 <option value="chapter4">Chapter 4</option>
+			 <option value="chapter5">Chapter 5</option>
+			</select>
+		   </p>
+			
+			<p>Do you like this story?</P>
+			<p>
+			<lable for = "yes"> Yes </lable>
+			<input type = "checkbox" name="count[]" value = "Yes" id = "yes"/>
+			<lable for = "no"> No </lable>
+			<input type = "checkbox" name="count[]" value = "No" id = "yes"/>
+			</P>
+		     <lable for = "textinput">Why do you like/dislike this story?</lable>
+		     </br>
+		    <textarea id= "textinput" name = "message" rows = "12"  cols = "80"></textarea><br>
+		
+		<div id="submit">	
+		<input type = "submit" name= "submit" value = " Submit" />
+		</div>	
+		</form>
+		</section>
+	</section>
+	
+</body>
+</html>
