@@ -1,0 +1,163 @@
+
+#container {
+	width:900px;
+	margin:0 auto;
+	display:block;
+	padding: 20px 0px 20px 0px;
+}
+
+.img{
+	display: flex;	
+}
+
+img.portrait {
+	border: 2px solid black;
+	margin-right: 40px;
+}
+
+.entry {
+	padding-top:55px;
+	clear: both;
+	margin-left:4px;
+	display: flex;
+	flex-flow: column;
+}
+
+h2{
+	text-align: right;
+	width: 140px;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+}
+
+p {
+    margin: 0px;
+    margin-left: 40px;
+      
+}
+
+.content {
+	display: flex;
+}
+
+ul.works li img {
+    padding: 4px;
+    background-color: #fff;
+    width: 95px;
+    height: 95px;
+    border: 1px solid #bdc7da;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+ul.works {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    margin-left: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.name{
+  font-size: 25px;
+  padding: 5px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  color: #000;
+
+
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+
+/* Standard syntax */
+@keyframes example {
+  0%   {border-bottom-color: red;}
+  25%  {border-bottom-color: yellow;}
+  50%  {border-bottom-color: blue;}
+  100% {border-bottom-color: green;}
+}
+
+.name:hover{
+  border-bottom-color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: .5s;
+  color: #000;
+   background-color: orange;
+}
+
+
+@media screen and (min-width: 500px){
+	
+	body{
+		background-color: orange;
+	}
+
+	img.portrait {
+		width: 25%;
+		height: 25%;
+	}	
+
+	ul.works li img {
+		width: 25%;
+		
+	}
+
+	p{
+		font-size: 15px;
+
+	}
+
+@media screen and (min-width: 1050px) {
+	body{
+		background-color: red;
+	}
+
+	img.portrait {
+		width: 50%;
+		height: 50%;
+    }    	
+
+	p{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	ul.works li img {
+		width: 50%;
+		h
+	}
+
+	
+
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	body{
+		background-color: yellow;
+	}
+
+	img.portrait {
+		width: 10%;
+		height: 10%;
+    }    
+	
+
+	ul.works li img {
+		width: 10%;
+	}
+	
+	p{
+		font-size: 10px;
+	}
+
+
+	
+
+
+
