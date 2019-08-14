@@ -35,14 +35,24 @@
           </ul>
         </div>
 	
-	<form id="evaulationForm" method = "post">
+	<form id="evaulationForm" method = "post" onsubmit="confirmInput()" action="https://www.youtube.com/">
 	<fieldset>
 	<legend> Feedback </legend>
 	
 		<section>
 		   <p>	
 			<lable for = "nameInput"> Name: </lable>
-			<input type= "text" name = "name" id = "nameInput"><br>		
+			<input type= "text" name = "name" id = "nameInput" onblur="nameFunction()"><br>	
+
+            <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+            <script>
+				function nameFunction() {
+				  var x = document.getElementById("nameInput");
+				  x.value = x.value.toUpperCase();
+				}
+			</script>
+
 			<lable for = "emailInput"> Email: </lable>
 			<input type= "text" name = "email" id = "emailInput"><br>
 			<p>Gender:
@@ -73,7 +83,16 @@
 		    <textarea id= "textinput" name = "message" rows = "12"  cols = "80"></textarea><br>
 		
 		<div id="submit">	
+
 		<input type = "submit" name= "submit" value = " Submit" />
+
+        <script>
+		function confirmInput() {
+		  nameInput = document.forms[0].nameInput.value;
+		  alert("Hello " + nameInput + "! You will now be redirected to www.youtubecom");
+		}
+		</script>
+
 		</div>	
 		</form>
 		</section>

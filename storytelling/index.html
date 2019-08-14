@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">   
   </head>
   
-
  <body> 
 
     <div class="w-100 d-flex navbar-light bg-white border-bottom">
@@ -50,7 +49,18 @@
         <p>They answered, “Why be scared of a hat?”</p>
         <p>My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. Then I drew the inside of the boa constrictor, so the grown-ups could understand. They always need explanations. My drawing Number Two looked like this:</p>
 
-        <img src="images/c1_2.jpg" alt="elephant" class="w-60 mb-4 mx-auto">
+        <img src="images/c1_2.jpg" alt="elephant" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+
+        <script>
+            function bigImg(x){
+                x.style.width = "300px";
+                x.style.height = "300px";
+            }
+            function normalImg(x){
+                x.style.width = "100px";
+                x.style.height = "100px";
+            }
+        </script>
 
         <p>The grown-ups advised me to put away my drawings of boa constrictors, outside or inside, and apply myself instead to geography, history, arithmetic, and grammar. That is why I abandoned, at the age of six, a mag nificent career as an artist. I had been discouraged by the failure of my drawing Number One and of my drawing Number Two. Grown-ups never understand anything  by themselves, and it is exhausting for children to have to provide
         explanations over and over again.</p>
